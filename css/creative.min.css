@@ -80,7 +80,7 @@ aside {
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: transparent;
     border-color: rgba(34, 34, 34, .05);
     padding: 10px;
     transition: all .35s
@@ -97,6 +97,11 @@ aside {
     font-weight: 700;
     font-size: 300%;
     text-transform: uppercase;
+}
+
+.navbar-default .navbar-header .navbar-brand:focus, .navbar-default:hover, .navbar-header .navbar-brand:hover {
+    color: #1573dd;
+    padding:8px
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -124,7 +129,7 @@ aside {
 }
 
 .navbar-default .nav>li.active>a:focus:hover, .navbar-default .nav>li.active>a:hover {
-    background-color: transparent;
+    background-color: transparent
 }
 
 @media (min-width:768px) {
