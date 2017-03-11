@@ -82,6 +82,7 @@ aside {
 .navbar-default {
     background-color: #fff;
     border-color: rgba(34, 34, 34, .05);
+    padding: 15px;
     transition: all .35s
 }
 
@@ -95,6 +96,7 @@ aside {
     font-weight: 700;
     font-size: 300%;
     text-transform: uppercase;
+    padding: ;
 }
 
 .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
@@ -121,7 +123,7 @@ aside {
 }
 
 .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
-    color: #1573dd!important;
+    color: #1573dd;
     background-color: transparent
 }
 
@@ -135,16 +137,16 @@ aside {
         border-color: rgba(255, 255, 255, .3)
     }
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255, 255, 255, .7)
+        color: white;
     }
     .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
-        color: #fff
+        color: #fff;
     }
     .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
         color: rgba(255, 255, 255, .7)
     }
     .navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
-        color: #fff
+        color: #fff;
     }
     .navbar-default.affix {
         /*background-color: #fff;*/
@@ -152,12 +154,12 @@ aside {
         border-color: rgba(34, 34, 34, .05)
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        color: #fff;
-        /*color: #1573dd;*/
+        /*color: #fff;*/
+        color: #1573dd;
         font-size: 14px
     }
     .navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover {
-        color: #eb3812
+        color: #fff;
     }
     .navbar-default.affix .nav>li>a, .navbar-default.affix .nav>li>a:focus {
         color: #fff
