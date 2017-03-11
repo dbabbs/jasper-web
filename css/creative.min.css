@@ -82,9 +82,10 @@ aside {
 .navbar-default {
     background-color: #fff;
     border-color: rgba(34, 34, 34, .05);
-    padding: 15px;
+    padding: 10px;
     transition: all .35s
 }
+
 
 .btn-default, .portfolio-box .portfolio-box-caption {
     -webkit-transition: all .35s;
@@ -96,11 +97,6 @@ aside {
     font-weight: 700;
     font-size: 300%;
     text-transform: uppercase;
-    padding: ;
-}
-
-.navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
-    color: #1573dd
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -128,7 +124,7 @@ aside {
 }
 
 .navbar-default .nav>li.active>a:focus:hover, .navbar-default .nav>li.active>a:hover {
-    background-color: transparent
+    background-color: transparent;
 }
 
 @media (min-width:768px) {
@@ -151,7 +147,10 @@ aside {
     .navbar-default.affix {
         /*background-color: #fff;*/
         background-color: #000;
-        border-color: rgba(34, 34, 34, .05)
+        border-color: rgba(34, 34, 34, .05);
+        height: 8px;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
         /*color: #fff;*/
