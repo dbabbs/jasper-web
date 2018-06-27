@@ -12,4 +12,4 @@ CSE 440, Winter 2017
 - Tong Shen
 
 # Theme
-Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+[Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
